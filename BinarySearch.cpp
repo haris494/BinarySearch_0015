@@ -45,3 +45,8 @@ void bubbleSortArray()
                 element[j + 1] = temp;
             }
         }
+          pass++;
+    } while (pass <= nPanjang - 1);
+}
+void display() //  Create function to display the sorted array
+{
