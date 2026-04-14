@@ -40,3 +40,8 @@ void bubbleSortArray()
         {
             if (element[j] > element[j + 1])
             {
+                  int temp = element[j]; // Swap array elements if they are out of order
+                element[j] = element[j + 1];
+                element[j + 1] = temp;
+            }
+        }
