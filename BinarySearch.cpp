@@ -105,3 +105,10 @@ void binarySearch()
     } while (ulang == 'y' || ulang == 'Y');
 }
 
+int main()
+{
+    input(); // Call input function from main to start program flow
+    bubbleSortArray();
+    display();
+    binarySearch();
+}
